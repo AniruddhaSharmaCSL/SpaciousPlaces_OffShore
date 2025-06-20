@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a34fcab23e76a34da24d7a81749e2dd, type: 3}
+  m_Name: OrangeTheme
+  m_EditorClassIdentifier: 
+  _matCollections:
+  - {fileID: 11400000, guid: 81f5b834270462141ba4d87b889a88ea, type: 2}
+  - {fileID: 11400000, guid: a99a5237fe8e8e14c96fddd10e9b0f86, type: 2}
+  - {fileID: 11400000, guid: 033cbd7c19a827e40a81ba7de0657e44, type: 2}

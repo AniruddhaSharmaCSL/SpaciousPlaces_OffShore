@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: NewKoreographyTrack
+  m_EditorClassIdentifier: 
+  mEventID: NewKoreographyTrack
+  mEventList:
+  - mStartSample: 0
+    mEndSample: 0
+  - mStartSample: 13090
+    mEndSample: 13090
+  - mStartSample: 26181
+    mEndSample: 26181
+  - mStartSample: 39272
+    mEndSample: 39272
+  - mStartSample: 52363
+    mEndSample: 52363
+  - mStartSample: 65454
+    mEndSample: 65454
+  - mStartSample: 78545
+    mEndSample: 78545
+  - mStartSample: 81818
+    mEndSample: 81818
+  - mStartSample: 85090
+    mEndSample: 85090
+  - mStartSample: 88363
+    mEndSample: 88363
+  - mStartSample: 91636
+    mEndSample: 91636
+  - mStartSample: 94909
+    mEndSample: 94909
+  - mStartSample: 98181
+    mEndSample: 98181
+  - mStartSample: 101454
+    mEndSample: 101454
+  - mStartSample: 104727
+    mEndSample: 104727
+  - mStartSample: 108000
+    mEndSample: 108000
+  - mStartSample: 111272
+    mEndSample: 111272
+  - mStartSample: 114545
+    mEndSample: 114545
+  - mStartSample: 117818
+    mEndSample: 117818
+  - mStartSample: 121090
+    mEndSample: 121090
+  - mStartSample: 124363
+    mEndSample: 124363
+  - mStartSample: 127636
+    mEndSample: 127636
+  - mStartSample: 130909
+    mEndSample: 130909
+  - mStartSample: 134181
+    mEndSample: 134181
+  - mStartSample: 137454
+    mEndSample: 137454
+  - mStartSample: 140727
+    mEndSample: 140727
+  - mStartSample: 144000
+    mEndSample: 144000
+  - mStartSample: 147272
+    mEndSample: 147272
+  - mStartSample: 150545
+    mEndSample: 150545
+  - mStartSample: 153818
+    mEndSample: 153818
+  - mStartSample: 157090
+    mEndSample: 157090
+  - mStartSample: 160363
+    mEndSample: 160363
+  - mStartSample: 163636
+    mEndSample: 163636
+  - mStartSample: 166909
+    mEndSample: 166909
+  - mStartSample: 170181
+    mEndSample: 170181
+  - mStartSample: 173454
+    mEndSample: 173454
+  - mStartSample: 176727
+    mEndSample: 176727
+  - mStartSample: 180000
+    mEndSample: 180000
+  - mStartSample: 183272
+    mEndSample: 183272
+  - mStartSample: 186545
+    mEndSample: 186545
+  - mStartSample: 189818
+    mEndSample: 189818
+  - mStartSample: 193090
+    mEndSample: 193090
+  - mStartSample: 196363
+    mEndSample: 196363
+  - mStartSample: 199636
+    mEndSample: 199636
+  - mStartSample: 202909
+    mEndSample: 202909
+  - mStartSample: 206181
+    mEndSample: 206181
+  - mStartSample: 209454
+    mEndSample: 209454
+  - mStartSample: 212727
+    mEndSample: 212727
+  - mStartSample: 216000
+    mEndSample: 216000
+  - mStartSample: 219272
+    mEndSample: 219272
+  - mStartSample: 222545
+    mEndSample: 222545
+  - mStartSample: 225818
+    mEndSample: 225818
+  - mStartSample: 229090
+    mEndSample: 229090
+  - mStartSample: 232363
+    mEndSample: 232363
+  - mStartSample: 235636
+    mEndSample: 235636
+  - mStartSample: 238909
+    mEndSample: 238909
+  - mStartSample: 242181
+    mEndSample: 242181
+  - mStartSample: 245454
+    mEndSample: 245454
+  - mStartSample: 248727
+    mEndSample: 248727
+  - mStartSample: 252000
+    mEndSample: 252000
+  - mStartSample: 255272
+    mEndSample: 255272
+  - mStartSample: 258545
+    mEndSample: 258545
+  - mStartSample: 261818
+    mEndSample: 261818
+  - mStartSample: 265090
+    mEndSample: 265090
+  - mStartSample: 268363
+    mEndSample: 268363
+  _SerializedPayloadTypes: []
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads: []
+  _TextPayloadIdxs: 

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2076007791, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: AwakeMySoul-Shorter
+  m_EditorClassIdentifier: 
+  mSourceClip: {fileID: 8300000, guid: a9a3a2aac3960ac4ea89227d9763db83, type: 3}
+  mAudioFilePath: 
+  mSampleRate: 48000
+  mIgnoreLatencyOffset: 0
+  mTempoSections:
+  - sectionName: Drum Quantization
+    startSample: 0
+    samplesPerBeat: 40000
+    beatsPerMeasure: 4
+    bStartNewMeasure: 1
+  mTracks:
+  - {fileID: 11400000, guid: c479401692050e240b7199533075f428, type: 2}
+  - {fileID: 11400000, guid: 53bb759c3cc2e6a44855b8f1bb82220a, type: 2}
+  - {fileID: 11400000, guid: 73bc9c3efd161e444a73bc15fd0bbd00, type: 2}
+  - {fileID: 11400000, guid: 626d8d11cee1f7348baebf9421303a6f, type: 2}
+  - {fileID: 11400000, guid: 2714bb8494952154fb1d2fbe219cbfb1, type: 2}
+  - {fileID: 11400000, guid: e7d4c2afbd010a6489069657f8ebee0a, type: 2}
+  - {fileID: 11400000, guid: 129d3c94f789cfa4d868ca89c067fa21, type: 2}

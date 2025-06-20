@@ -1,0 +1,82 @@
+//© Dicewrench Designs LLC 2017-2024
+//Licensed for use in 'Music Visualizer' App
+//All Rights Reserved
+//Last Owned by: Allen White (allen@dicewrenchdesigns.com)
+
+BEGIN_OPTIONS
+	ShaderName "DWD/Hand Trail Dev"
+	Stackable "False"
+	Alpha "Add"
+	Workflow "Unlit"
+END_OPTIONS
+
+BEGIN_PROPERTIES
+	[NoScaleOffset] _MainTex("Main Tex", 2D) = "white" {}
+	[HDR] _Color ("Main Color", Color) = (0, 1, 0, 1)
+
+	[Header(Mask Sample)]
+	_ScaleOffset("Scale Offset", Vector) = (1,0,1,0)
+	_Mix("Mix", Vector) = (0,1,0,0)
+
+	[Header(Sample One Settings)]
+	_ScaleOffsetOne("Scale Offset", Vector) = (1,1,0,0)
+	_MixOne("Mix", Vector) = (0,1,0,0)
+	_ScrollOne("Scroll X", float) = 1.0
+
+	[Header(SampleTwo Settings)]
+	_ScaleOffsetTwo("Scale Offset", Vector) = (1,1,0.5,0.5)
+	_MixTwo("Mix", Vector) = (0,0,0,1)
+	_ScrollTwo("Scroll X", float) = -1.0
+
+	[Header(Blend Settings)]
+	_Pow("Pow", float) = 1.0
+	_Boost("Boost", float) = 2.0
+END_PROPERTIES
+
+BEGIN_CBUFFER
+	half4 _Color;
+	half4 _ScaleOffsetOne, _ScaleOffsetTwo, _MixOne, _MixTwo, _Mix, _ScaleOffset;
+	half _ScrollOne, _ScrollTwo;
+	half _Pow, _Boost;
+END_CBUFFER
+
+
+BEGIN_CODE
+
+	TEXTURE2D(_MainTex);
+	SAMPLER(sampler_MainTex);
+	SAMPLER(sampler_MainTexOne);
+	SAMPLER(sampler_MainTexTwo);
+
+	half GetMix(half4 base, half4 mixer)
+	{
+		half scale = mixer.r + mixer.g + mixer.b + mixer.a;
+		half blend = (base.r * mixer.r) + (base.g * mixer.g) + (base.b * mixer.b) + (base.a * mixer.a);
+		blend /= scale;
+		return saturate(blend);
+	}
+
+	void ModifyVertex(inout VertexData v, inout ExtraV2F d)
+	{
+		float2 baseUV = v.texcoord0.xy;
+		float t = _Time.x;
+		v.texcoord1.xy = baseUV.xy * _ScaleOffsetOne.xy + _ScaleOffsetOne.zw + float2(t * _ScrollOne, 0.0);
+		v.texcoord1.zw = baseUV.xy * _ScaleOffsetTwo.xy + _ScaleOffsetTwo.zw + float2(t * _ScrollTwo, 0.0);
+		v.texcoord0.xy = baseUV * _ScaleOffset.xy + _ScaleOffset.zw;
+	}
+
+	void SurfaceFunction(inout Surface o, ShaderData d)
+	{
+		half mask = GetMix(SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, d.texcoord0.xy), _Mix);
+		half one = GetMix(SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, d.texcoord1.xy), _MixOne);
+		half two = GetMix(SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, d.texcoord1.zw), _MixTwo);
+
+		half result = saturate(one * two * 2.0) * mask;
+		result = saturate(pow(result, _Pow) * _Boost);
+
+		o.Albedo = _Color.rgb * result.xxx * d.vertexColor.rgb;
+		o.Alpha = 1.0 * d.vertexColor.a;
+	}
+
+END_CODE
+

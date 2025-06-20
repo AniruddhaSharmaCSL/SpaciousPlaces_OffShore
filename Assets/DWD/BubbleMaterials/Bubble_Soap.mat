@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bubble_Soap
+  m_Shader: {fileID: 4800000, guid: a42b73d1cf25d554ab24c7b9f9e0e5cf, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORMODE_GRADIENT
+  - _UVMODE_TRIPLANAR
+  - _WOBBLE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BubbleRampTex:
+        m_Texture: {fileID: 2800000, guid: bea99b79430d6f047bd26a3269eb0c45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradTexture:
+        m_Texture: {fileID: 2800000, guid: 6082bc8076aa4a94c950cccf24b8b19f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PlanarMap:
+        m_Texture: {fileID: 2800000, guid: bea99b79430d6f047bd26a3269eb0c45, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_948e3df1184c4f7ba413ae761901d7e5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 758b2adbf58a3c043bb8a544e31d77a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_bb90601138bb4c6c9596af1e039d0212_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6082bc8076aa4a94c950cccf24b8b19f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_8e095cae7de9470082ad936478b404d9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f5539e0838236124c9b3f6e34ca0ea5a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlbedoMask: 1
+    - _ColorMode: 1
+    - _CoreFillBoost: 2
+    - _CoreNoiseRate: 0.22
+    - _CoreNoiseScale: 10
+    - _CorePower: 3
+    - _CorePulseRate: 0.1
+    - _CoreTexBoost: 2
+    - _CoreTexPow: 4.12
+    - _EmissionMask: 0.837
+    - _MapIntensity: 0.191
+    - _Metalness: 0.508
+    - _Occlusion: 1
+    - _PulseRate: 0.2
+    - _PulseSinAmp: 0.31
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RampBoost: 1.15
+    - _RampPow: 1.8
+    - _RimBoost: 0.57
+    - _RimMulAlbedo: 1
+    - _RimPower: 4.12
+    - _Saturation: 0.54
+    - _Smoothness: 1
+    - _UVMode: 1
+    - _Wobble: 1
+    - _WobbleIntensity: 0.08
+    - _WobbleNoiseScale: 4.38
+    - _WobbleRate: 2
+    - _XScroll: -0.39
+    - _YScroll: 0.3
+    m_Colors:
+    - _BubbleRimColor: {r: 9.404325, g: 2.632027, b: 5.182635, a: 1}
+    - _Color: {r: 0.19214027, g: 0.19837497, b: 0.42138356, a: 0.06666667}
+    - _ColorTwo: {r: 1, g: 1, b: 1, a: 1}
+    - _CoreColor: {r: 0.06463341, g: 0.4779873, b: 0.08852667, a: 0}
+    - _PlanarMix: {r: 1, g: -0.19, b: -0.29, a: 0}
+    - _RimColor: {r: 9.189588, g: 3.3232768, b: 8.317336, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &2594689010289804988
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

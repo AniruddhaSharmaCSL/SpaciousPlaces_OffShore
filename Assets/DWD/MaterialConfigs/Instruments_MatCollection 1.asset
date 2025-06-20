@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d57a598658739b44b9a7756eb89c81b, type: 3}
+  m_Name: Instruments_MatCollection 1
+  m_EditorClassIdentifier: 
+  managedProperties:
+  - {fileID: 4711422392626188487}
+  - {fileID: 801940491704748500}
+  materials:
+  - {fileID: 2100000, guid: 889bfe662708a6347872d4a4d6bbbf70, type: 2}
+  - {fileID: 2100000, guid: 75b7979f12d0b134da5b4e0c4d552604, type: 2}
+  - {fileID: 2100000, guid: f73f7d35f853dd842a7152287451e6e1, type: 2}
+  - {fileID: 2100000, guid: 740ccda4899766b43a59e24224caf03e, type: 2}
+  - {fileID: 2100000, guid: c09727c21d9c9ad40aaec2529b4a5e3a, type: 2}
+  - {fileID: 2100000, guid: 233fcbcf6ba20894abe9ed3ceb21c711, type: 2}
+  - {fileID: 2100000, guid: af59fd935382a4643a71d0b1d7bb973d, type: 2}
+  - {fileID: 2100000, guid: e878c199ebafdcc4b92962d55e9b40f2, type: 2}
+  - {fileID: 2100000, guid: 1a90a2fb487ba0c41b769cdf9c38dd56, type: 2}
+  - {fileID: 2100000, guid: 40faff6de514a8b4e8ca86e02bf750bc, type: 2}
+  - {fileID: 2100000, guid: 61ee2f6cdfd277949aceec13874c09e1, type: 2}
+  - {fileID: 2100000, guid: d3a6d8a90b6b94342bb9f5d86800082b, type: 2}
+  - {fileID: 2100000, guid: 96030b27e3256c5478863c9dff405bc2, type: 2}
+  - {fileID: 2100000, guid: 841ebfb85a0a03343a5a4a1e503811fd, type: 2}
+  - {fileID: 2100000, guid: 0da414c25c824dd4faa2a6e48c6fe9a5, type: 2}
+  - {fileID: 2100000, guid: 637a73d662f569345b8acfa4b14260df, type: 2}
+  - {fileID: 2100000, guid: edc94d907ebd5054ea9a691271beea46, type: 2}
+  - {fileID: 2100000, guid: b1778afc97a4c054abb02c71f5331d8f, type: 2}
+  - {fileID: 2100000, guid: 9255e625d5cdf5a48941e9c9e5483300, type: 2}
+  - {fileID: 2100000, guid: 2536e855b433f124ba8ce6c4462255db, type: 2}
+  - {fileID: 2100000, guid: 68d83dd5187b2d24e8cf253a122b3b0e, type: 2}
+--- !u!114 &801940491704748500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3d1f1085fd9ec4b8bf23fadcbb7aa4, type: 3}
+  m_Name: ManageableHDRProperty
+  m_EditorClassIdentifier: 
+  _materialPropertyName: _EmissionColor
+  _propertyValue: {r: 0.36888456, g: 0.14901961, b: 0.5411765, a: 1}
+--- !u!114 &4711422392626188487
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1bfea3b2da8484e831f79e43d8be5d, type: 3}
+  m_Name: ManageableColorProperty
+  m_EditorClassIdentifier: 
+  _materialPropertyName: _BaseColor
+  _propertyValue: {r: 0.64556, g: 0.29874206, b: 1, a: 1}

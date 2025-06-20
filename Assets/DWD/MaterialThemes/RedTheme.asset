@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a34fcab23e76a34da24d7a81749e2dd, type: 3}
+  m_Name: RedTheme
+  m_EditorClassIdentifier: 
+  _matCollections:
+  - {fileID: 11400000, guid: 67b79fac1f349d2468070cb2f5366189, type: 2}
+  - {fileID: 11400000, guid: e021283f385f9c549a9219e4cd9c9cda, type: 2}
+  - {fileID: 11400000, guid: 8052f4e11e19b2e4b9e507df41287baf, type: 2}

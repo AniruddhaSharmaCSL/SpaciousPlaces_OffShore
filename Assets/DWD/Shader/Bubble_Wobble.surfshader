@@ -1,0 +1,52 @@
+//© Dicewrench Designs LLC 2024
+//Licensed for use in 'Music Visualizer' App
+//All Rights Reserved
+//Last Owned by: Allen White (allen@dicewrenchdesigns.com)
+
+BEGIN_OPTIONS
+	Stackable "False"
+END_OPTIONS
+
+BEGIN_PROPERTIES
+	[Header(Vertex Wobble)]
+	[Toggle(_WOBBLE_ON)] _Wobble("Enable Wobble?", float) = 0.0
+	_WobbleRate ("Wobble Rate", float) = 2.0
+	_WobbleNoiseScale("Wobble Noise Scale", float) = 1.0
+	_WobbleIntensity("Wobble Intensity", float) = 0.03
+END_PROPERTIES
+
+BEGIN_CBUFFER
+	half _WobbleRate, _WobbleNoiseScale, _WobbleIntensity;
+END_CBUFFER
+
+BEGIN_DEFINES
+	#pragma multi_compile _ _WOBBLE_ON
+
+	#ifndef _HAS_FUNC
+		#include "DWD_ShaderFunctions.cginc" 
+		#define _HAS_FUNC 1
+	#endif
+END_DEFINES
+
+BEGIN_CODE
+
+	void ModifyVertex(inout VertexData v, inout ExtraV2F d)
+	{
+		#if _WOBBLE_ON
+			float t = _Time.x;
+			float3 pos = v.vertex.xyz;
+			float3 normPos = v.vertex.xyz * 0.5.xxx + 0.5.xxx;
+
+			float rate = t * _WobbleRate;
+			float3 wobblePos = normPos + rate.xxx;
+			float noise = Noise(wobblePos.xy * _WobbleNoiseScale.xx);
+
+			float3 dir = normalize(v.normal.xyz) * _WobbleIntensity;
+			float3 outputPos = pos + dir;
+			v.vertex.xyz = lerp(pos, outputPos, noise);
+			v.normal += v.vertex.xyz;
+		#endif
+	}
+
+END_CODE
+

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="gcm_defaultSenderId" translatable="false">207644117635</string>
+  <string name="google_storage_bucket" translatable="false">spaciousplaces-dev.firebasestorage.app</string>
+  <string name="project_id" translatable="false">spaciousplaces-dev</string>
+  <string name="google_api_key" translatable="false">AIzaSyBq6xDN-ErmOvqO_1hsGBje-7baqoL_3-Q</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBq6xDN-ErmOvqO_1hsGBje-7baqoL_3-Q</string>
+  <string name="google_app_id" translatable="false">1:207644117635:android:7b17bc13820743a14729b6</string>
+</resources>

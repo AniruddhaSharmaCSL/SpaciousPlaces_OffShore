@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89c550b566dbe43499bb32c936f6c081
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - canvasMenu: {fileID: 1033897512452584, guid: 5a0c21ab38ec37e4487d418a42ca9fe9,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

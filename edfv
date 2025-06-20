@@ -1,0 +1,511 @@
+[33mcommit 7072367f36c17b015a2c8bc842c14ca9f113eea4[m[33m ([m[1;36mHEAD -> [m[1;32mjf/addingInstruments_merge[m[33m)[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 04:16:09 2024 -0500
+
+    re-add vibraphone audio
+
+[33mcommit 79a0d492eb5abb1fad70af68d73e70bedb6226f8[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 04:02:28 2024 -0500
+
+    re-add glock
+
+[33mcommit 74ec439919d736d95b1284c6ed5d9772fae39999[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 03:43:55 2024 -0500
+
+    re-add toy xylophone
+
+[33mcommit 623c8d4e21ea9ea617ed6f149526898af14166cc[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 03:42:31 2024 -0500
+
+    re-add handpan
+
+[33mcommit 35a4a801c6cb1e34651726df7a5ca26a46dcb456[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 03:38:45 2024 -0500
+
+    re-add tank drum
+
+[33mcommit d7aae0c10f98e4fc7d51a9c6a38dee2c221fa995[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 03:34:09 2024 -0500
+
+    re-add vibraphone
+
+[33mcommit f4a73314f2b9b826a52a3451405a10276e9cce0d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 96c4be98 52720150
+Author: John Forester <forester.john@gmail.com>
+Date:   Fri Dec 6 03:20:03 2024 -0500
+
+    Merge pull request #50 from johnforester/jf/apkFix_merge_harp
+    
+    Jf/apk fix merge harp
+
+[33mcommit 52720150ee28d83e02567b3da0944d2b38b7ed77[m[33m ([m[1;31morigin/jf/apkFix_merge_harp[m[33m, [m[1;32mjf/apkFix_merge_harp[m[33m, [m[1;32mjf/apkFixMerge[m[33m)[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 02:40:26 2024 -0500
+
+    remap missing instruments
+
+[33mcommit f8456b7e5f436534d94af8182f866aa8e543ca65[m[33m ([m[1;31morigin/jf/apkFixMerge[m[33m)[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Dec 5 23:47:06 2024 -0500
+
+    switch no keyzone error to log
+
+[33mcommit 8068711280b60b93aa2e19de2ae1c2e81d81d8e0[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Dec 5 23:43:18 2024 -0500
+
+    Add dirty mark to MidiChordKoreographyTrack
+
+[33mcommit 438230f0b649566015b0646ab5f654d6df170565[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Dec 5 22:53:09 2024 -0500
+
+    re-add Bell midi koreo tracks
+
+[33mcommit 6f3cc2e780009074b144dc007f60e65f08333f7d[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Dec 5 16:30:49 2024 -0500
+
+    reduce Environment Reflections Intensity Multiplier from 1.0 to 0.45
+
+[33mcommit 6ae903481ca4cd68aad6be130e484c48f6fdb883[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Dec 5 16:26:42 2024 -0500
+
+    Resolve curve UI merge issue
+
+[33mcommit 340effadcb3627050d0112ddcaa49e3f1924758c[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Dec 5 16:23:03 2024 -0500
+
+     Fix the instrument (and user position) offset in the levels
+
+[33mcommit 9cc8b739ec2fc206535fb217a4c91c1c07743bb3[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Dec 5 16:17:10 2024 -0500
+
+    Remove bell quantization fix
+
+[33mcommit 97a407655a34e960cc25d5de6dea2e1869e627e8[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Fri Dec 6 02:32:53 2024 -0500
+
+    fix merge issues
+
+[33mcommit 96c4be9829b77e342bb3ac1d79210959131aede7[m
+Merge: fe936cde f680a33d
+Author: John Forester <forester.john@gmail.com>
+Date:   Fri Dec 6 01:41:34 2024 -0500
+
+    Merge pull request #48 from johnforester/jf/harpDirection
+    
+    Jf/harp direction
+
+[33mcommit f680a33d13b72e30be8cf42fd58513c5d49645df[m[33m ([m[1;31morigin/jf/harpDirection[m[33m, [m[1;32mjf/harpDirection[m[33m)[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 00:58:26 2024 -0500
+
+    turn off collider direction restriction on harp
+
+[33mcommit 30963398aa5353e08ddd6568cb01936cd4db97d7[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 00:16:42 2024 -0500
+
+    add toggle for valid collision direction
+
+[33mcommit 1857f4f27b2f2984105b75fa9bcfd9eb452c5c21[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Dec 6 00:05:21 2024 -0500
+
+    add validateCollisionDirection method
+
+[33mcommit fe936cde1a3a61d3f36cfc70defd6f151e77452f[m
+Merge: 58bcb27b ce4f184b
+Author: John Forester <forester.john@gmail.com>
+Date:   Fri Dec 6 00:22:54 2024 -0500
+
+    Merge pull request #45 from johnforester/jh/AddHarpSamples
+    
+    Jh/WiringUpHarpSamples
+
+[33mcommit ce4f184b0615b2291f34210d7619822afc9c9d18[m[33m ([m[1;31morigin/jh/AddHarpSamples[m[33m)[m
+Author: javenu <justhebert@gmail.com>
+Date:   Thu Dec 5 00:30:34 2024 -0800
+
+    Small mods to the Alpha space cloud
+
+[33mcommit 70e7e4386e0e85cb9a7770d837e219bd16942727[m
+Author: javenu <justhebert@gmail.com>
+Date:   Thu Dec 5 00:03:05 2024 -0800
+
+    Updated GalaxyHome3-NoStars-Alpha
+    
+    Painted out the dark blurry areas
+
+[33mcommit 9cb45f5e73ae80a4e263d82b426237c8bb2a3326[m
+Author: javenu <justhebert@gmail.com>
+Date:   Wed Dec 4 23:15:02 2024 -0800
+
+    Wired up the Harp old-style using Prefabs
+    
+    Used the Harp Normal samples instead of the Fantasy Breeze preset samples - Breeze has too much delay for this song
+
+[33mcommit 5abcf9be0bbdfc363649ecd2883f58b57218dae8[m
+Author: javenu <justhebert@gmail.com>
+Date:   Wed Dec 4 16:34:42 2024 -0800
+
+    Adding harp samples and wiring them up to the Golden Harp using the new system
+
+[33mcommit 58bcb27bc6df7c52e1d54b4a8b8b60cfb2cb834b[m[33m ([m[1;31morigin/jh/FixHarp[m[33m)[m
+Merge: b6472e00 761695d5
+Author: Justin Hebert <justhebert@gmail.com>
+Date:   Wed Dec 4 13:42:21 2024 -0800
+
+    Merge pull request #43 from johnforester/jh/ModsToGalaxySkybox
+    
+    Added Inner galaxy skybox to the Home Page and tuned settings
+
+[33mcommit b6472e008569acb6933fc78194ed8cff11b28f9a[m
+Merge: 774086ac 7079ef87
+Author: Justin Hebert <justhebert@gmail.com>
+Date:   Wed Dec 4 13:42:05 2024 -0800
+
+    Merge pull request #41 from johnforester/jh/AddSaltFlats
+    
+    Adding SaltFlat level and cleaning up skybox folders
+
+[33mcommit 7079ef8763d6d6501abbea8b37df6d18ed6cb90f[m[33m ([m[1;31morigin/jh/AddSaltFlats[m[33m)[m
+Author: javenu <justhebert@gmail.com>
+Date:   Wed Dec 4 13:41:34 2024 -0800
+
+    Readding missing skybox material
+
+[33mcommit 035d2b54aee5f2b9f05221805e4c188932622b9e[m
+Merge: 9e2d9fcf e4f3b942
+Author: javenu <justhebert@gmail.com>
+Date:   Wed Dec 4 13:37:09 2024 -0800
+
+    Merge branch 'jh/AddSaltFlats' of https://github.com/johnforester/XRMusicInput into jh/AddSaltFlats
+
+[33mcommit 761695d584ea0ea2921fb1c4c36059a2315e233a[m[33m ([m[1;31morigin/jh/ModsToGalaxySkybox[m[33m)[m
+Author: javenu <justhebert@gmail.com>
+Date:   Wed Dec 4 13:24:23 2024 -0800
+
+    Added Inner galaxy skybox to the Home Page and tuned settings
+
+[33mcommit e4f3b942f70e5408b9242ee63f0ecdd86b1adbfb[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Wed Dec 4 15:54:19 2024 -0500
+
+    fix merge issues
+
+[33mcommit 774086aca5e186e88bd7f70a784f5c16c65afd7b[m
+Merge: ec5368fe c19f6169
+Author: Justin Hebert <justhebert@gmail.com>
+Date:   Wed Dec 4 11:33:31 2024 -0800
+
+    Merge pull request #42 from johnforester/jf/pitchQuantizer2-2
+    
+    Jf/pitch quantizer2 2
+
+[33mcommit ec5368fea30a8f3cac3be4553bec249681487ccd[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Wed Dec 4 10:47:23 2024 -0500
+
+    don't move title with curveui radius change
+
+[33mcommit c19f6169522045e7ea3a4ea35ec611a01c0eb8a2[m[33m ([m[1;31morigin/jf/pitchQuantizer2-2[m[33m)[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Tue Dec 3 03:24:36 2024 -0500
+
+    add individual bell tracks to nfaw
+
+[33mcommit 496e7b6d2221bc09ea32e8737e2761262a41c332[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Tue Dec 3 02:38:07 2024 -0500
+
+    various UI fixes
+
+[33mcommit 824f8d3b8287518a98795c699a2727d33831f75b[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Fri Nov 22 21:48:40 2024 -0500
+
+    fix merge issues
+
+[33mcommit 7169658e78219f9a8c82e92fe64147e62093cd1b[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Nov 24 01:37:51 2024 -0500
+
+    fix merge issues
+
+[33mcommit 59399e817ca28941e96ad4f4930bf766c7dc428b[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Nov 24 01:36:50 2024 -0500
+
+    fix merge issues
+
+[33mcommit 01c5528d911caf5904d837aac313a84326577868[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Nov 22 14:22:33 2024 -0500
+
+    more sampler debug ui work
+
+[33mcommit 8fd0a8adf95378d83562fc07550b5e822627a940[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Nov 22 01:28:37 2024 -0500
+
+    correct wiring up sampler debug text
+
+[33mcommit ef018aa9b0d84f93562189ce6e2b30476d68697b[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Fri Nov 22 00:52:36 2024 -0500
+
+    add sampler debug UI
+
+[33mcommit 6df18defbd43acf7bb0dc7ba5450289bac8893a0[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Nov 21 22:28:30 2024 -0500
+
+    add more bell samples. more sample swapping work
+
+[33mcommit a2a6f1b9f28644bde5e94a7130afa73a039a6981[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Thu Nov 21 16:31:56 2024 -0500
+
+    add velocity range to sampler
+
+[33mcommit d9dac5b9e4e9ce32a9b37787298e0c080e2c4791[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Mon Nov 18 14:55:13 2024 -0500
+
+    continue sampler setup
+
+[33mcommit 058ef47094997fea5c3e962d560787179a0414e1[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Nov 24 01:35:47 2024 -0500
+
+    fix merge issues
+
+[33mcommit e856ff7548772a7ca5423ac773a1fa9c9c1dc9ce[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Tue Dec 3 12:22:14 2024 -0500
+
+    fix unable to scroll carousels accurately
+
+[33mcommit 9e2d9fcf37037130ae46d9736890032c180c7eaa[m
+Author: javenu <justhebert@gmail.com>
+Date:   Tue Dec 3 01:47:38 2024 -0800
+
+    Adding SaltFlat level and cleaning up skybox folders
+
+[33mcommit 18e04b7c47b7ec734726d4ad49413317576512e1[m
+Merge: 9da24a47 595a5fb2
+Author: javenu <justhebert@gmail.com>
+Date:   Tue Dec 3 00:36:05 2024 -0800
+
+    Merge branch 'main' of https://github.com/johnforester/XRMusicInput
+
+[33mcommit 9da24a47f51a6bf47f729417de79a69f1f803fbf[m
+Author: javenu <justhebert@gmail.com>
+Date:   Tue Dec 3 00:35:46 2024 -0800
+
+    Revert SceneLoader bits
+    
+    Revert of 69481c9f88eabae68c49372d30431d3d85433f35
+
+[33mcommit 595a5fb2d64e87b525ebf26079f0a89862f5e730[m
+Merge: eca66006 0473cf59
+Author: Justin Hebert <justhebert@gmail.com>
+Date:   Tue Dec 3 00:30:04 2024 -0800
+
+    Merge pull request #40 from johnforester/jh/AddingHomeDrones
+    
+    Adding Blended Home Drones to Home Scene
+
+[33mcommit 0473cf590b597227241fccf326cdcd27426473b3[m[33m ([m[1;31morigin/jh/AddingHomeDrones[m[33m)[m
+Author: javenu <justhebert@gmail.com>
+Date:   Mon Dec 2 02:24:00 2024 -0800
+
+    Adding Blended Home Drones to Home Scene
+
+[33mcommit eca66006d75a0f7e2b033e64e89bcc4490db7d95[m
+Merge: 4816e636 40daf7e7
+Author: Justin Hebert <justhebert@gmail.com>
+Date:   Mon Dec 2 01:42:39 2024 -0800
+
+    Merge pull request #36 from johnforester/jf/curveUI-2
+    
+    Jf/curve UI 2
+
+[33mcommit 40daf7e791484f9494386c9b5c8e6dc1702b9639[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Dec 1 13:51:04 2024 -0500
+
+    override z position adjustment that CurveUI makes
+
+[33mcommit 956242eb2c7db01b2a88e85c83e4ca28b9893649[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Fri Nov 29 14:45:39 2024 -0500
+
+    adjust title and curved ui positions
+
+[33mcommit 199dd4a8540cf5c6dcb29a62eef5c89965a7f92f[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Sun Nov 24 18:54:30 2024 -0500
+
+    Bugfix: controller ray cursor doesn't appear in first few seconds after launch
+
+[33mcommit bac3ff844b59b23350710727006b237b140cb46f[m
+Author: johnforester <forester.john@gmail.com>
+Date:   Sun Nov 24 16:49:23 2024 -0500
+
+    set customReflectionTexture on video scenes
+
+[33mcommit 5349a625a2b0d3880a214ab9e3e46167b073a0fb[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Dec 1 13:28:40 2024 -0500
+
+    fix merge issues
+
+[33mcommit 4816e636567641a21a1cfcc95c0983306dcb63a1[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Dec 1 13:23:27 2024 -0500
+
+    add depth skybox example to home
+
+[33mcommit c9aae3529b38346ce4603c17b81f7de3731fa302[m
+Merge: dc7d6be0 1c6473e0
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Dec 1 13:21:46 2024 -0500
+
+    Merge pull request #38 from johnforester/jh/AddHarpVibraphone
+    
+    Added Golden Harp, Vibraphone, also RedCanyon level
+
+[33mcommit dc7d6be0cac7816b61da1f4e06e38bb1e0861f02[m
+Merge: 22497976 bd5af728
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Dec 1 12:51:27 2024 -0500
+
+    Merge pull request #39 from johnforester/dwdSkyboxMerge
+    
+    Dwd skybox merge
+
+[33mcommit bd5af7282ff05ebe254da88bec385048431ea0a8[m
+Author: John Forester <forester.john@gmail.com>
+Date:   Sun Dec 1 12:50:32 2024 -0500
+
+    add DepthSkyboxExample to Home
+
+[33mcommit 5642ef8a5ae708e0dab927af705da0a30cd30507[m
+Author: Dicewrench Designs <allen@dicewrenchdesigns.com>
+Date:   Fri Nov 29 14:41:59 2024 -0500
+
+    Add new Skybox Assets, new Skybox Shaders, and example prefab and materials
+
+[33mcommit 69481c9f88eabae68c49372d30431d3d85433f35[m
+Author: Dicewrench Designs <allen@dicewrenchdesigns.com>
+Date:   Wed Nov 13 12:05:42 2024 -0500
+
+    Fix Scene Load in Editor
+    
+    SceneLoader assumes you have 2 scenes loaded when you push play, which is risky.  Switched to LoadAsync to open the Home scene.  If you want to support both you can check first but that still seems wacky, and unlike how the game will behave on device.
+
+[33mcommit 1c6473e045ac1cf243dc7d81dfc42359928c6396[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 30 23:53:19 2024 -0800
+
+    Added Golden Harp, vibraphone, also RedCanyon level
+
+[33mcommit 224979766cf02b405ed3fa7749d2618f4d4bd349[m
+Merge: 5b7e84d9 08fd07b8
+Author: John Forester <forester.john@gmail.com>
+Date:   Fri Nov 29 14:49:35 2024 -0500
+
+    Merge pull request #35 from johnforester/jh/AddingXylophone
+    
+    Added Type Logo for Home Page
+
+[33mcommit 08fd07b8ceaf45e376d15030f7e5ac65c3ac3460[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 23:54:49 2024 -0800
+
+    Added ToyXylophone-12 version
+    
+    We now have 8, 12, and 16 xylophones
+
+[33mcommit e59356c06f3f0225b602bb7094bd4636e42ba29a[m[33m ([m[1;31morigin/jh/AddingXylophone[m[33m)[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 22:19:18 2024 -0800
+
+    Added Type Logo for Home Page
+
+[33mcommit 5b7e84d9e6764760e7aa4c04a65500c327875936[m
+Merge: 5c4a2734 62ba426d
+Author: John Forester <forester.john@gmail.com>
+Date:   Sat Nov 23 22:32:37 2024 -0500
+
+    Merge pull request #34 from johnforester/jh/AddingXylophone
+    
+    Jh/adding tons of instruments
+
+[33mcommit 62ba426d619228e5c091f70a8f7a33a48062afe3[m[33m ([m[1;32mjh/AddingXylophone[m[33m)[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 16:58:19 2024 -0800
+
+    Re-enabling other instrument PreFabs
+
+[33mcommit bd6b74a44d4b9b063628c148e90bc76a4e210ec0[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 16:55:17 2024 -0800
+
+    Adding Temp Xylophone notes to Kalimba for testing
+
+[33mcommit 2a61d6ab63da2fe6e2a3e66a4e551fa41bcf268f[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 15:41:20 2024 -0800
+
+    Kalimba - 6 versions of Tines
+    
+    16, 14, 12, 10, 8 Wide, 8 Tight
+
+[33mcommit a5539a399a18e1167223e07ae667334d655b7699[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 13:38:40 2024 -0800
+
+    Carved up tongues on TankDrum into separate meshes
+
+[33mcommit 844574eefbd61a5a32b6427ae91a8295dcbe1dbe[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 01:41:34 2024 -0800
+
+    Adding Wooden Gong
+
+[33mcommit 95f958f62a3b482c00a58dec1ca8e4a2662862f2[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 01:10:32 2024 -0800
+
+    Adding DrumPad and Wooden Xylophone
+
+[33mcommit 4f11bafc09dd5b04efd3493d4852e85d028a6449[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 00:43:02 2024 -0800
+
+    Adding Kalimba
+
+[33mcommit c839c458193e3fdf1565c4245904716c6b846b0c[m
+Author: javenu <justhebert@gmail.com>
+Date:   Sat Nov 23 00:30:39 2024 -0800
+
+    Adding SingingBowl and Stick
+
+[33mcommit 4585184b00d3e171d510e90bc5d1c7225ab0da21[m
+Author: javenu <justhebert@gmail.com>
+Date:   Fri Nov 22 23:48:32 2024 -0800
+
+    Adding Djambe 3D Model

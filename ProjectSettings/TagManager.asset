@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Head
+  - Bullet
+  - Hand
+  - Projectile
+  - XR Rig Origin
+  - XR Rig
+  - Level Loader
+  - Level Boilerplate
+  - SettingsMenu
+  - FPSImage
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Overlay UI
+  - Water
+  - UI
+  - Room
+  - Furniture
+  - DebugUI
+  - HiddenMesh
+  - Character
+  - MirroredCharacter
+  - ProjectileTargets
+  - Projectiles
+  - NoFireballArea
+  - Instruments
+  - InstrumentsInteractive
+  - InstrumentsBlocker
+  - Grab
+  - Inner
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - OVROverlayCanvas Rendering
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

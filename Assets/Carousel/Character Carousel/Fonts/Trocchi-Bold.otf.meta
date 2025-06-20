@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 24510de57e8468a4ebf3691798bffb63
+timeCreated: 1443023072
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Trocchi
+  fontNames:
+  - Trocchi
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/XRPersistency.unity
+    guid: ea152060a495ce64c98a074b6f1e21ce
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: bf7096f9b60a2794092b7ffb40cbcd01
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: d683b7ea235d5c84d99cb589485633d0
+  - enabled: 0
+    path: Assets/VRUIP/Demo Scenes/DemoSceneMetaSDK.unity
+    guid: 486c0ef4a16a5b64ea7d230bb202fb4f
+  - enabled: 0
+    path: Assets/Samples/Meta XR Core SDK/65.0.0/Mixed Reality Sample/MixedReality.unity
+    guid: fc8cf684948f0654f9bb46acfbba709e
+  - enabled: 0
+    path: Assets/Scenes/Passthrough.unity
+    guid: bf04d17856a514d4e840d3b8d4c8cb84
+  - enabled: 1
+    path: Assets/Scenes/SamplerTest.unity
+    guid: 3adabc6443968094b8250817990eec9a
+  - enabled: 1
+    path: Assets/Scenes/IAPTest.unity
+    guid: 9fe2f4665fcedeb489ac57876c0129f0
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 08a1775cc5dacb24aaf466b72ba4dac6,
+      type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: a371d27159d5cf04dab9c1e818e25f76,
+      type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2206415bf13ed2a4999e2ef1d2c7da2d,
+      type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ad97b1a393937c84085ebe1e326e30c6,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0e35aed1688e3134abf3cad6ba93efef,
+      type: 2}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "207644117635",
+    "project_id": "spaciousplaces-dev",
+    "storage_bucket": "spaciousplaces-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207644117635:android:7b17bc13820743a14729b6",
+        "android_client_info": {
+          "package_name": "com.jh.SpaciousPlaces"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq6xDN-ErmOvqO_1hsGBje-7baqoL_3-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

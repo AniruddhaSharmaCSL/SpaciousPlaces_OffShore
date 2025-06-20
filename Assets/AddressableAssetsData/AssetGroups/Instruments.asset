@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Instruments
+  m_EditorClassIdentifier: 
+  m_GroupName: Instruments
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 382c7294d0296cb419c5217b237916a0
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9b78f3a48e3091d41a1dfc1ecdf19784, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 006b88898a7c24740ab0180d9242e424, type: 2}
+    - {fileID: 11400000, guid: 35e25e97b3735e44598c832f1bc23756, type: 2}

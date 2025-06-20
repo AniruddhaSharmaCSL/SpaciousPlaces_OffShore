@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"fcf04c0d-8ec6-45dc-9576-6c28b386d219\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"sku_list_json\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        \"spacious_full_game_unlock_earlybirddiscount\",\r\n       
+    \"spacious_full_game_unlock\"\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"5b3bf35f-5aa0-4ada-9c61-c4e74a7dbed6\"\r\n    },\r\n   
+    \"rs\": {\r\n      \"key\": \"active_sku\",\r\n      \"type\": \"string\",\r\n     
+    \"value\": \"spacious_full_game_earlybirddiscount\"\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"fcf04c0d-8ec6-45dc-9576-6c28b386d219\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"sku_list_json\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        \"spacious_full_game_unlock_earlybirddiscount\",\r\n       
+    \"spacious_full_game_unlock\"\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"5b3bf35f-5aa0-4ada-9c61-c4e74a7dbed6\"\r\n    },\r\n   
+    \"rs\": {\r\n      \"key\": \"active_sku\",\r\n      \"type\": \"string\",\r\n     
+    \"value\": \"spacious_full_game_earlybirddiscount\"\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"ffa99469-adec-4fdf-ac4b-c68162e6ef48\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"4a77a69b-07a5-4013-bb5e-0c4dafdb935f\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2025-04-17T00:11:32Z\",\r\n    \"updatedAt\":
+    \"2025-04-17T00:11:32Z\"\r\n  },\r\n  {\r\n    \"projectId\": \"ffa99469-adec-4fdf-ac4b-c68162e6ef48\",\r\n   
+    \"name\": \"development\",\r\n    \"id\": \"6217181d-6e39-447d-81ef-f0c3ac6e3dfb\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2025-05-12T20:36:58Z\",\r\n   
+    \"updatedAt\": \"2025-05-12T20:36:58Z\"\r\n  }\r\n]"

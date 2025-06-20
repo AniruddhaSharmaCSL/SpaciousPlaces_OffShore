@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d57a598658739b44b9a7756eb89c81b, type: 3}
+  m_Name: MalletVFX_Green 1
+  m_EditorClassIdentifier: 
+  managedProperties:
+  - {fileID: 4711422392626188487}
+  - {fileID: 801940491704748500}
+  materials:
+  - {fileID: 2100000, guid: 75b58f7ea535748418c3c787ef68a0a8, type: 2}
+--- !u!114 &801940491704748500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3d1f1085fd9ec4b8bf23fadcbb7aa4, type: 3}
+  m_Name: ManageableHDRProperty
+  m_EditorClassIdentifier: 
+  _materialPropertyName: _EmissionColor
+  _propertyValue: {r: 0.008029683, g: 0.36477977, b: 0.16856724, a: 1}
+--- !u!114 &4711422392626188487
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1bfea3b2da8484e831f79e43d8be5d, type: 3}
+  m_Name: ManageableColorProperty
+  m_EditorClassIdentifier: 
+  _materialPropertyName: _BaseColor
+  _propertyValue: {r: 0.12507404, g: 0.7798742, b: 0.44805807, a: 1}

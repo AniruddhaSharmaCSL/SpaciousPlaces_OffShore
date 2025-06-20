@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2076007791, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: NatureFindsAWay
+  m_EditorClassIdentifier: 
+  mSourceClip: {fileID: 8300000, guid: 42f80f24a718194498ca4585b98af4bb, type: 3}
+  mAudioFilePath: 
+  mSampleRate: 48000
+  mIgnoreLatencyOffset: 0
+  mTempoSections:
+  - sectionName: DrumQuantization
+    startSample: 0
+    samplesPerBeat: 26181.818181818184
+    beatsPerMeasure: 4
+    bStartNewMeasure: 1
+  mTracks:
+  - {fileID: 11400000, guid: 5ba2ee0dc5d445c4da818b6533f81840, type: 2}
+  - {fileID: 11400000, guid: 7f6f832b5bd9fa7409d78254c7f8fd09, type: 2}
+  - {fileID: 11400000, guid: 5fcd6db23d9243747994a53330144055, type: 2}
+  - {fileID: 11400000, guid: 7cd419aea79e5ce4eac701d011070f34, type: 2}
+  - {fileID: 11400000, guid: a2055d92fa7b6814a8a833428b5c26b6, type: 2}
+  - {fileID: 11400000, guid: b1d3198cf8e60264f86c05bbc6100b64, type: 2}
+  - {fileID: 11400000, guid: d8223ac42d2511a4e9f520ea1dfbaa58, type: 2}
+  - {fileID: 11400000, guid: 04c6205a980e58746842a0f3e00b4f10, type: 2}
+  - {fileID: 11400000, guid: 4043e42f7fa474c638407a2e6570e42d, type: 2}
+  - {fileID: 11400000, guid: 571f398b5652049f6a4c12e5aabe578f, type: 2}
+  - {fileID: 11400000, guid: 0037198cc877a4feeba5a6f2842cfad4, type: 2}
+  - {fileID: 11400000, guid: 8af6580dbe57949d1a5bf8ac1ce553a4, type: 2}

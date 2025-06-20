@@ -1,0 +1,31 @@
+//© Dicewrench Designs LLC 2024
+//Licensed for use in 'Music Visualizer' App
+//All Rights Reserved
+//Last Owned by: Allen White (allen@dicewrenchdesigns.com)
+
+BEGIN_OPTIONS
+	Stackable "False"
+END_OPTIONS
+
+BEGIN_PROPERTIES
+	_Metalness ("Metalness", Range(0,1)) = 0.0
+    _Smoothness ("Smoothness", Range(0,1)) = 1.0
+    _Occlusion ("Occlusion", Range(0,1)) = 1.0
+END_PROPERTIES
+
+BEGIN_CBUFFER
+	half _Metalness, _Smoothness, _Occlusion;
+END_CBUFFER
+
+
+BEGIN_CODE
+
+	void SurfaceFunction(inout Surface o, ShaderData d)
+	{
+		o.Occlusion = _Occlusion;
+        o.Smoothness = _Smoothness;
+        o.Metallic = _Metalness;
+	}
+
+END_CODE
+

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 135178446b0a9664bab9ae99343cbe47
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MenuPrefab1: {fileID: 1217270721794918, guid: ad24a2d75d3078548b738277ecf0f256,
+      type: 2}
+  - MenuPrefab2: {fileID: 1154013702327122, guid: 884ea2b7019bd054eb5c5edb178ac09b,
+      type: 2}
+  - MenuPrefab3: {instanceID: 0}
+  - MenuPrefab4: {instanceID: 0}
+  - canvasMenu: {fileID: 1033897512452584, guid: 5a0c21ab38ec37e4487d418a42ca9fe9,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

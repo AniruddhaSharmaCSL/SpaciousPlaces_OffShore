@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba3623c6f9a58842a34c5aabacf6151, type: 3}
+  m_Name: AwakeMySoulMidiChords
+  m_EditorClassIdentifier: 
+  mEventID: MidiChords
+  mEventList:
+  - mStartSample: 0
+    mEndSample: 0
+  - mStartSample: 159999
+    mEndSample: 159999
+  - mStartSample: 319999
+    mEndSample: 319999
+  - mStartSample: 479999
+    mEndSample: 479999
+  - mStartSample: 639999
+    mEndSample: 639999
+  - mStartSample: 799999
+    mEndSample: 799999
+  - mStartSample: 959999
+    mEndSample: 959999
+  - mStartSample: 1119999
+    mEndSample: 1119999
+  - mStartSample: 1279999
+    mEndSample: 1279999
+  - mStartSample: 1439999
+    mEndSample: 1439999
+  - mStartSample: 1599999
+    mEndSample: 1599999
+  - mStartSample: 1759999
+    mEndSample: 1759999
+  - mStartSample: 1919999
+    mEndSample: 1919999
+  - mStartSample: 2079999
+    mEndSample: 2079999
+  - mStartSample: 2239999
+    mEndSample: 2239999
+  - mStartSample: 2399999
+    mEndSample: 2399999
+  - mStartSample: 2559998
+    mEndSample: 2559998
+  - mStartSample: 2719998
+    mEndSample: 2719998
+  - mStartSample: 2879998
+    mEndSample: 2879998
+  - mStartSample: 3039998
+    mEndSample: 3039998
+  - mStartSample: 3199998
+    mEndSample: 3199998
+  - mStartSample: 3359998
+    mEndSample: 3359998
+  - mStartSample: 3519998
+    mEndSample: 3519998
+  - mStartSample: 3679998
+    mEndSample: 3679998
+  - mStartSample: 3839998
+    mEndSample: 3839998
+  - mStartSample: 3999998
+    mEndSample: 3999998
+  - mStartSample: 4159998
+    mEndSample: 4159998
+  - mStartSample: 4319998
+    mEndSample: 4319998
+  - mStartSample: 4479998
+    mEndSample: 4479998
+  - mStartSample: 4639998
+    mEndSample: 4639998
+  - mStartSample: 4799998
+    mEndSample: 4799998
+  - mStartSample: 4959998
+    mEndSample: 4959998
+  - mStartSample: 5119997
+    mEndSample: 5119997
+  - mStartSample: 5279997
+    mEndSample: 5279997
+  - mStartSample: 5439997
+    mEndSample: 5439997
+  - mStartSample: 5599997
+    mEndSample: 5599997
+  - mStartSample: 5759997
+    mEndSample: 5759997
+  - mStartSample: 5919997
+    mEndSample: 5919997
+  - mStartSample: 6079997
+    mEndSample: 6079997
+  - mStartSample: 6239997
+    mEndSample: 6239997
+  - mStartSample: 6399997
+    mEndSample: 6399997
+  - mStartSample: 6559997
+    mEndSample: 6559997
+  - mStartSample: 6719997
+    mEndSample: 6719997
+  - mStartSample: 6879997
+    mEndSample: 6879997
+  - mStartSample: 7039997
+    mEndSample: 7039997
+  - mStartSample: 7199997
+    mEndSample: 7199997
+  - mStartSample: 7359997
+    mEndSample: 7359997
+  - mStartSample: 7519996
+    mEndSample: 7519996
+  - mStartSample: 7679996
+    mEndSample: 7679996
+  - mStartSample: 7839996
+    mEndSample: 7839996
+  - mStartSample: 7999996
+    mEndSample: 7999996
+  - mStartSample: 8159996
+    mEndSample: 8159996
+  - mStartSample: 8319996
+    mEndSample: 8319996
+  - mStartSample: 8479996
+    mEndSample: 8479996
+  - mStartSample: 8639996
+    mEndSample: 8639996
+  _SerializedPayloadTypes:
+  - MIDIChordPayload
+  _MIDIChordPayloads:
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 3c0000004000000043000000
+  - mNotes: 3c0000004000000043000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  - mNotes: 43000000470000004a000000
+  _MIDIChordPayloadIdxs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f00000030000000310000003200000033000000340000003500000036000000

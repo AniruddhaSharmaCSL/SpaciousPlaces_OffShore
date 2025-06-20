@@ -1,0 +1,1051 @@
+fileFormatVersion: 2
+guid: d0e13af416e28a7479c3c9371ddaf65e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Arrow_Button
+  - first:
+      213: 21300002
+    second: Buttons_Background
+  - first:
+      213: 21300004
+    second: Glowy Menu Button
+  - first:
+      213: 21300006
+    second: Comment_Box
+  - first:
+      213: 21300008
+    second: Settings_Icon
+  - first:
+      213: 21300010
+    second: Empty_Frame_Small
+  - first:
+      213: 21300012
+    second: CheckBox_Tick
+  - first:
+      213: 21300014
+    second: Seperate_Line_3
+  - first:
+      213: 21300016
+    second: Seperate_Line_2
+  - first:
+      213: 21300018
+    second: UI_Sprites_9
+  - first:
+      213: 21300020
+    second: Seperate_Line_1
+  - first:
+      213: 21300022
+    second: PopUp_Menu_Big
+  - first:
+      213: 21300024
+    second: Checkbox
+  - first:
+      213: 21300026
+    second: Slider_Knob
+  - first:
+      213: 21300028
+    second: FlatButton
+  - first:
+      213: 21300030
+    second: UI_Sprites_15
+  - first:
+      213: 21300032
+    second: UI_Sprites_16
+  - first:
+      213: 21300034
+    second: Rivet_1
+  - first:
+      213: 21300036
+    second: Rivet_2
+  - first:
+      213: 21300038
+    second: Slider
+  - first:
+      213: 21300040
+    second: Menu_Headers_Background
+  - first:
+      213: 21300042
+    second: Big_glass
+  - first:
+      213: 21300044
+    second: Small_glass
+  - first:
+      213: 21300046
+    second: Solo Frame 3
+  - first:
+      213: 21300048
+    second: UI_Sprites_0
+  - first:
+      213: 21300050
+    second: Solo Frame 1
+  - first:
+      213: 21300052
+    second: Solo Frame 2
+  - first:
+      213: 21300054
+    second: UI_Sprites_3
+  - first:
+      213: 21300056
+    second: Back Button Icon
+  - first:
+      213: 21300058
+    second: Settings Icon
+  - first:
+      213: 21300060
+    second: Player Icon
+  - first:
+      213: 21300062
+    second: Lock_Icon
+  - first:
+      213: 21300064
+    second: Arrow_Icon
+  - first:
+      213: 21300066
+    second: ZzZz Icon
+  - first:
+      213: 21300068
+    second: Clock Icon
+  - first:
+      213: 21300070
+    second: Search Icon
+  - first:
+      213: 21300072
+    second: Menu Background 1
+  - first:
+      213: 21300074
+    second: Card Deck Icon
+  - first:
+      213: 21300076
+    second: Armor Icon
+  - first:
+      213: 21300078
+    second: Target Icon
+  - first:
+      213: 21300080
+    second: Card Deck Icon 2
+  - first:
+      213: 21300082
+    second: Rounded Rectangle Glass
+  - first:
+      213: 21300084
+    second: Rectangle Glass
+  - first:
+      213: 21300086
+    second: Circle Glass
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buttons_Background
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1070
+        width: 595
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6479c27769a87e64483354b03e7b46bb
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowy Menu Button
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 880
+        width: 477
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 37, y: 48, z: 32, w: 49}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c34d80c6a16f847acecdfdb9d15d39
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Comment_Box
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 857
+        width: 345
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 19, y: 16, z: 18, w: 17}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b3c73c78788b3478ee68286e06e22f
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_Button
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 647
+        width: 158
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e2a3bed41abe84989af2dc577298ba
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 725
+        width: 406
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d4c0e1ba7422c43922c9de202bb941
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seperate_Line_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 800
+        width: 576
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126e960391e557046a3a0f9dadaed412
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopUp_Menu_Big
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 960
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cad76e6b08e06b47820544fef62bf7b
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkbox
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 635
+        width: 150
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7cb62e2f87b714db4d6c4eafe51a46
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Knob
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 477
+        width: 99
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6cf6c19f20e7346890b4ebad6bd93b
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlatButton
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 15
+        width: 388
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 15, z: 16, w: 14}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1de62caf656e6747ad40a9664ca9f49
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rivet_1
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 77
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4d0685d1b6a2847841e6daf3779454
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rivet_2
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 156
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a25458e26fbc8f419534d3d80155955
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 640
+        width: 371
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 19, y: 19, z: 17, w: 18}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bc24d0cc5664a4c8e89512c58b6e65
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_glass
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1227
+        width: 317
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae36105bff272ce4aadab9b3ddabd33e
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_glass
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1129
+        width: 313
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18321ad5f3f6f3a41a362669ba644936
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solo Frame 3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1165
+        width: 237
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 17, y: 17, z: 16, w: 18}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa170cc67b908440897ede339ece359
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 109
+        width: 41
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847a030e0b9eea34b8d1b9925150d072
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solo Frame 1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1168
+        width: 224
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 23, y: 23, z: 18, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb1d16890c94ad49b789c06c651f521
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solo Frame 2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1168
+        width: 224
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 21, y: 20, z: 20, w: 20}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329e961629e7c944fb1a4b6268e9ddc8
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 556
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4baf6d4c35dbd54499b439ca49595ed
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Button Icon
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 664
+        width: 107
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2655202f1ea678439534199c9fbd983
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings Icon
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 650
+        width: 110
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b1244467acd1f49be4355645face32
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Icon
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 586
+        width: 104
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bc9b36f12953b4b9cafad0406c55d2
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lock_Icon
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 156
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2ee3e714ea9be499239eceb687d047
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_Icon
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 303
+        width: 134
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c805db852279b64cb21d205006da2e2
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZzZz Icon
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 323
+        width: 77
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117798d75bce52d41888dd7737054a39
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Icon
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 143
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2014ab3b8c7ac3348bd31cbacc9e687c
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search Icon
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 139
+        width: 90
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d784d36725accc14889af174d9b36925
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Background 1
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1052
+        width: 352
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 26, y: 27, z: 26, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d370d1a6ac94d43b042ae30331d632
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card Deck Icon
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 563
+        width: 129
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f375fefe3c93634b820b07f182d3bcd
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armor Icon
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 404
+        width: 98
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb533ab51cd2e1c4c8d21ea0fe549e67
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target Icon
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 282
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16baf7cc05ea7ba4a876679e83139d34
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card Deck Icon 2
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 418
+        width: 130
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ee1f1635a3144478686fe5bee7d322
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rounded Rectangle Glass
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 959
+        width: 458
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 21, y: 17, z: 23, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24ab24d4dff0ed4888ce469df4b24fe
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rectangle Glass
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 809
+        width: 403
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 17, z: 15, w: 15}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61850ba36e2317f4eb5352973c7c727b
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Glass
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 833
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0d50c317b95914d8cb7a5795564547
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 61362321cb94c8947bc5ea8d75936619
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Armor Icon: 21300076
+      Arrow_Button: 21300000
+      Arrow_Icon: 21300064
+      Back Button Icon: 21300056
+      Big_glass: 21300042
+      Buttons_Background: 21300002
+      Card Deck Icon: 21300074
+      Card Deck Icon 2: 21300080
+      Checkbox: 21300024
+      Circle Glass: 21300086
+      Clock Icon: 21300068
+      Comment_Box: 21300006
+      FlatButton: 21300028
+      Glowy Menu Button: 21300004
+      Lock_Icon: 21300062
+      Menu Background 1: 21300072
+      Player Icon: 21300060
+      PopUp_Menu_Big: 21300022
+      Rectangle Glass: 21300084
+      Rivet_1: 21300034
+      Rivet_2: 21300036
+      Rounded Rectangle Glass: 21300082
+      Search Icon: 21300070
+      Seperate_Line_1: 21300020
+      Settings Icon: 21300058
+      Slider: 21300038
+      Slider_Knob: 21300026
+      Small_glass: 21300044
+      Solo Frame 1: 21300050
+      Solo Frame 2: 21300052
+      Solo Frame 3: 21300046
+      Target Icon: 21300078
+      UI_Sprites_0: 21300048
+      UI_Sprites_3: 21300054
+      UI_Sprites_9: 21300018
+      ZzZz Icon: 21300066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

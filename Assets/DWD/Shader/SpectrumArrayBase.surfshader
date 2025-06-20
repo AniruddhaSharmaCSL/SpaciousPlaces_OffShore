@@ -1,0 +1,140 @@
+//© Dicewrench Designs LLC 2017-2024
+//Licensed for use in 'Music Visualizer' App
+//All Rights Reserved
+//Last Owned by: Allen White (allen@dicewrenchdesigns.com)
+
+
+BEGIN_OPTIONS
+	ShaderName "DWD/Spectrum Array Dev"
+	Alpha "Add"
+	Stackable "False"
+	Workflow "Unlit"
+END_OPTIONS
+
+BEGIN_PROPERTIES
+	[Header(Geo Settings)]
+	_OuterScale("Outer Scale", Range(0,2)) = 1.0
+
+	[Header(Optional Tex Mask)]
+	[Toggle(_TEX_ON)] _EnableTex("Enable Mask Tex?", float) = 0.0
+	_MainTex("Mask Tex", 2D) = "white" {}
+	_TexMix("Mix", Vector) = (1,0,0,0)
+	_XScroll("X Scroll", float) = 0.0
+	_YScroll("Y Scroll", float) = 0.0
+
+	[Header(Gradient Ramp)]
+	_Min("Min", Range(-2,2)) = 0
+	_Max("Max", Range(-2,2)) = 1
+	_Mask("Mask Flood Fill Zone", Range(0,1)) = 0.0
+
+	[Header(Spectrum Sampling)]
+	_SpecScale("Total Range", int) = 1023
+
+	[Header(Spectrum Input)]
+	_Scalar("Input Scalar", float) = 10.0
+	
+	[Header(Colors)]
+	[HDR] _Color ("Main Color", Color) = (0, 1, 0, 1)
+	[HDR] _InnerColor("Inner Color", Color) = (1,1,0,1)
+	_InnerFill("Inner Fill", Range(0,1)) = 0.3
+	[HDR] _OuterColor("Outer Color", Color) = (0,0,1,1)
+	_OuterFill("OuterFill", Range(0,1)) = 0.1
+	[Space]
+	_FillSize("Fill Cutoff", Range(-1,1)) = 0.5
+
+	[Header(Y Mask)]
+	_Pow("Pow", float) = 2.0
+	_Boost("Boost", float) = 3.0
+	[Space]
+	_BottomPow("Bottom Pow", float) = 2.0
+	_BottomBoost("Bottom Boost",float) = 9.0
+END_PROPERTIES
+
+BEGIN_DEFINES
+	#pragma multi_compile _ _TEX_ON
+END_DEFINES
+
+BEGIN_CBUFFER
+	half _OuterScale;
+	half _Min, _Max, _Mask;
+	half _Scalar;
+	half4 _Color, _InnerColor, _OuterColor;
+	half _InnerFill, _OuterFill, _FillSize;
+	half _Pow, _Boost;
+	half _BottomPow, _BottomBoost;
+	half _SpecScale, _SpecMin, _SpecMax;
+	uniform float4 _MainTex_ST;
+	half4 _TexMix;
+	half _XScroll, _YScroll;
+END_CBUFFER
+
+
+BEGIN_CODE
+
+	uniform float _GLOBAL_SPECTRUM[1023];
+
+	#if _TEX_ON
+		TEXTURE2D(_MainTex);
+		SAMPLER(sampler_MainTex);
+	#endif
+
+	float Remap(float ramp, float start, float end, out float mask)
+	{
+		float result = smoothstep(start, end, ramp);
+		mask = saturate((result + 0.01) * 10000.0);
+		return result;
+	}
+
+	half GetMix(half4 base, half4 mixer)
+	{
+		half scale = mixer.r + mixer.g + mixer.b + mixer.a;
+		half blend = (base.r * mixer.r) + (base.g * mixer.g) + (base.b * mixer.b) + (base.a * mixer.a);
+		blend /= scale;
+		return saturate(blend);
+	}
+
+	void ModifyVertex(inout VertexData v, inout ExtraV2F d)
+	{
+		float3 outsidePos = lerp(0.0.xxx, v.vertex.xyz, _OuterScale);
+		v.vertex.xyz = lerp(v.vertex.xyz, outsidePos, v.texcoord0.y);
+	}
+
+	void SurfaceFunction(inout Surface o, ShaderData d)
+	{
+		float mask = 1.0;
+		float x = Remap(d.texcoord0.x, _Min, _Max, mask);
+		float blank = 0.0;
+
+		int index = (int)(x * _SpecScale);
+		float spec = _GLOBAL_SPECTRUM[index];
+		float y = saturate(spec * _Scalar);
+		float ramp = 1.0 - (d.texcoord0.y - y);
+		ramp = saturate(pow(abs(ramp),_Pow) * _Boost);
+		half bottom = saturate(pow(d.texcoord0.y, _BottomPow) * _BottomBoost);
+		ramp = saturate(ramp * bottom);
+		ramp = lerp(ramp, saturate(ramp - mask), _Mask);
+		ramp = saturate(ramp * d.texcoord0.y);
+
+		#if _TEX_ON
+			half t = _Time.x;
+			half4 samp = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, d.texcoord0.xy * _MainTex_ST.xy + _MainTex_ST.zw + half2(_XScroll * t, _YScroll * t));
+			half mix = GetMix(samp, _TexMix);
+			ramp *= mix;
+		#endif
+
+		half fillHalo = saturate(d.texcoord0.y - _FillSize);
+		half bottomFill = saturate(bottom * (1.0 - fillHalo)) * _InnerFill;
+		half topFill = saturate(fillHalo) * _OuterFill * (1.0 - fillHalo);
+
+		half4 colorGrad = 0.0.xxxx;
+		colorGrad.rgb += lerp(_InnerColor.rgb * bottomFill.xxx, _OuterColor.rgb * topFill.xxx, fillHalo);
+		colorGrad.rgb += _Color.rgb * ramp.xxx;
+		colorGrad.rgb += lerp(_InnerColor.rgb, _OuterColor.rgb, d.texcoord0.y) * ramp.xxx;
+		colorGrad.rgb = (saturate(colorGrad.rgb)) * (1.0 - d.texcoord0.y);
+
+		o.Albedo = max(colorGrad.rgb, 0) * d.vertexColor.rgb;
+		o.Alpha = 1.0 * d.vertexColor.a;
+	}
+
+END_CODE
+

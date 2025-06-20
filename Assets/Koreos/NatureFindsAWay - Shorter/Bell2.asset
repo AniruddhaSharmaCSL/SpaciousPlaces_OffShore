@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba3623c6f9a58842a34c5aabacf6151, type: 3}
+  m_Name: Bell2
+  m_EditorClassIdentifier: 
+  mEventID: Bell2
+  mEventList:
+  - mStartSample: 0
+    mEndSample: 0
+  - mStartSample: 418908
+    mEndSample: 418908
+  - mStartSample: 837817
+    mEndSample: 837817
+  - mStartSample: 1256726
+    mEndSample: 1256726
+  - mStartSample: 1675634
+    mEndSample: 1675634
+  - mStartSample: 2094543
+    mEndSample: 2094543
+  - mStartSample: 2513452
+    mEndSample: 2513452
+  - mStartSample: 2932360
+    mEndSample: 2932360
+  - mStartSample: 3351269
+    mEndSample: 3351269
+  - mStartSample: 3770178
+    mEndSample: 3770178
+  - mStartSample: 4189086
+    mEndSample: 4189086
+  - mStartSample: 4607995
+    mEndSample: 4607995
+  - mStartSample: 5026904
+    mEndSample: 5026904
+  - mStartSample: 5445812
+    mEndSample: 5445812
+  - mStartSample: 5864721
+    mEndSample: 5864721
+  - mStartSample: 6283630
+    mEndSample: 6283630
+  - mStartSample: 6702538
+    mEndSample: 6702538
+  - mStartSample: 7121447
+    mEndSample: 7121447
+  - mStartSample: 7540356
+    mEndSample: 7540356
+  - mStartSample: 7959264
+    mEndSample: 7959264
+  - mStartSample: 8378173
+    mEndSample: 8378173
+  - mStartSample: 8797082
+    mEndSample: 8797082
+  - mStartSample: 9215990
+    mEndSample: 9215990
+  - mStartSample: 9634899
+    mEndSample: 9634899
+  - mStartSample: 10053808
+    mEndSample: 10053808
+  _SerializedPayloadTypes:
+  - MIDIChordPayload
+  _MIDIChordPayloads:
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  - mNotes: 4a000000
+  _MIDIChordPayloadIdxs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000

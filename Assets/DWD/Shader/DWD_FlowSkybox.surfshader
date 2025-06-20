@@ -1,0 +1,95 @@
+//© Dicewrench Designs LLC 2024
+//Licensed for use in 'Music Visualizer' App
+//All Rights Reserved
+//Last Owned by: Allen White (allen@dicewrenchdesigns.com)
+
+BEGIN_OPTIONS
+	Workflow "Unlit"
+END_OPTIONS
+
+BEGIN_PROPERTIES
+   [Header(Cube Settings)]
+   _Tint ("Tint Color", Color) = (.5, .5, .5, .5)
+   [Gamma] _Exposure ("Exposure", Range(0, 8)) = 1.0
+   _Rotation ("Rotation", Range(0, 360)) = 0
+   _SpinRate("Spin Rate", float) = 1.0
+   [NoScaleOffset] _Tex ("Cubemap (RGB Normal, A Height)", Cube) = "grey" {}
+   _LOD("Lod", float) = 0.0
+
+   [Space]
+   [Header(Flow Settings)]
+   [Toggle]_Flow("Enable Flow?", float) = 0.0
+   [HideUnless(_FLOW_ON)] _NoiseScalar("Noise Scale", Vector) = (3,9,4,0)
+   [HideUnless(_FLOW_ON)] _RateOne("Rate One", float) = 1.0
+   [HideUnless(_FLOW_ON)] _RateTwo("Rate Two", float) = -1.0
+   [HideUnless(_FLOW_ON)] _Intensity("Intensity", Range(-0.1,0.1)) = 0.03
+   [Header(Flow Depth Mask)]
+   [HideUnless(_FLOW_ON)] _TopCutoff("Top Cutoff", Range(0,1)) = 0.0
+   [HideUnless(_FLOW_ON)] _TopPow("Top Pow", float) = 0.5
+   [HideUnless(_FLOW_ON)] _TopBoost("Top Boost", float) = 1.0
+   [HideUnless(_FLOW_ON)] _BottomCutoff("Bottom Cutoff", Range(0,1)) = 0.0
+   [HideUnless(_FLOW_ON)] _BottomPow("Bottom Pow", float) = 0.5
+   [HideUnless(_FLOW_ON)] _BottomBoost("Bottom Boost", float) = 1.0
+END_PROPERTIES
+
+BEGIN_CBUFFER
+	half4 _Tex_HDR;
+    half4 _Tint;
+	half _LOD, _Exposure, _SpinRate;
+
+	float _Rotation;
+	half4 _NoiseScalar;
+	half _RateOne, _RateTwo, _Intensity;
+
+	half _TopCutoff, _TopPow, _TopBoost;
+	half _BottomCutoff, _BottomPow, _BottomBoost;
+END_CBUFFER
+
+BEGIN_DEFINES
+	#pragma multi_compile _ _FLOW_ON
+    #ifndef HASFUNC
+		#include "DWD_ShaderFunctions.cginc" 
+		#define HASFUNC 1
+	#endif
+END_DEFINES
+
+
+BEGIN_CODE
+
+	TEXTURECUBE(_Tex);
+    SAMPLER(sampler_Tex);
+
+	void ModifyVertex(inout VertexData v, inout ExtraV2F d)
+	{
+      float t = _Time.x;
+      v.texcoord0.xyz = Spin(v.vertex.xyz, t, _SpinRate, _Rotation);      
+	  v.texcoord0.w = t;
+	}
+
+	void SurfaceFunction(inout Surface o, ShaderData d)
+	{
+		float3 uv = d.texcoord0.xyz;
+
+		#if _FLOW_ON
+			float nOne = Noise(d.texcoord0.xy * _NoiseScalar.xy + d.texcoord0.ww * _RateOne.xx);
+			float nTwo = Noise(d.texcoord0.yz * _NoiseScalar.yz * _NoiseScalar.ww + d.texcoord0.ww * _RateTwo.xx);
+			float noise = nOne * nTwo * 2.0 - 1.0;
+			noise *= _Intensity;
+
+			half depth = d.extraV2F0.r;
+			half bottom = saturate(pow(saturate(depth - _BottomCutoff), _BottomPow) * _BottomBoost);
+			half top = saturate(pow(saturate((1.0 - depth) - _TopCutoff), _TopPow) * _TopBoost);
+			half mask = bottom * top;
+			noise *= mask;
+			uv.x += noise;
+		#endif
+
+		half4 tex = SAMPLE_TEXTURECUBE_LOD(_Tex, sampler_Tex, uv, _LOD);
+		tex.rgb = lerp(tex.rgb, tex.rgb * _Tint.rgb, _Tint.a);
+		tex *= _Exposure.xxxx;
+		o.Albedo = tex.rgb;
+		o.Alpha = tex.a;
+	}
+
+END_CODE
+

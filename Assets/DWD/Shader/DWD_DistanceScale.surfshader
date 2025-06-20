@@ -1,0 +1,46 @@
+//© Dicewrench Designs LLC 2024
+//Licensed for use in 'Music Visualizer' App
+//All Rights Reserved
+//Last Owned by: Allen White (allen@dicewrenchdesigns.com)
+
+BEGIN_OPTIONS
+	Stackable "False"
+END_OPTIONS
+
+BEGIN_PROPERTIES
+	[Toggle(_DISTSCALE_ON)] _DistScale("Scale with Distance", float) = 0
+	[Toggle] _InvertFade("Invert Fade?", float) = 1.0
+	_ScaleFadeDist("Fade Start X, End Y, Z Pow, W Boost",Vector) = (3, 4, 1, 0)
+	[Toggle] _MulWithVertexColor("Mul onto Vert Color?", float) = 1.0
+END_PROPERTIES
+
+BEGIN_DEFINES
+	#pragma shader_feature_local_vertex _ _DISTSCALE_ON
+END_DEFINES
+
+BEGIN_CBUFFER
+	half4 _ScaleFadeDist;
+	half _InvertFade;
+	half _MulWithVertexColor;
+END_CBUFFER
+
+
+BEGIN_CODE
+
+	void ModifyVertex(inout VertexData v, inout ExtraV2F d)
+	{
+		#if _DISTSCALE_ON
+			float3 worldPos = TransformObjectToWorld(0.0.xxx).xyz;
+			float dist = distance(worldPos, _WorldSpaceCameraPos);
+			dist = lerp(dist, 1.0 - dist, _InvertFade);
+			dist -= _ScaleFadeDist.x;
+			dist = 1.0 - saturate(dist / max(_ScaleFadeDist.y, 0.001));
+			dist = saturate(pow(abs(dist), _ScaleFadeDist.z) * _ScaleFadeDist.w);
+			v.vertex.xyz = lerp(0.0.xxx, v.vertex.xyz, dist);
+			half4 maskColor = lerp(1.0.xxxx, dist.xxxx, _MulWithVertexColor);
+			v.vertexColor *= maskColor;
+		#endif
+	}
+
+END_CODE
+
